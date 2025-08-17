@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
 
-const API_URL = "https://cse471-deployment-demo.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL;
 
 function App() {
   const [message, setMessage] = useState("Loading...");
