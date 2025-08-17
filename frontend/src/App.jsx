@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
 
-const API_URL = "http://localhost:4500"; // Change to your Render backend URL
+const API_URL = "https://cse471-deployment-demo.onrender.com";
 
 function App() {
   const [message, setMessage] = useState("Loading...");
